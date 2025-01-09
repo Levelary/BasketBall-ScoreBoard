@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background-color: rgb(238, 151, 64); */
+    background-image: url("./images/bg3.jpg");
+    background-size: 100vw 100vh;
+}
+
+button {
+    padding: 9px;
+    margin: 6px;
+    background-color: rgb(143, 238, 20);/*rgb(121, 241, 217);*/
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+header {
+    background-color: white;
+    height: 10vh;
+}
+
+#logout {
+    position:absolute;
+    padding: 10px;
+    margin: 2vh;
+    top: 3vh;
+    right: 3vw;
+}
+#scoreBoard {
+    margin-top: 100px;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+    margin-left: 6vw;
+}
+
+.timeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 85px;
+    background-color: rgb(215, 99, 211);
+    color: white;
+    margin: 10px;
+    padding: auto;
+    font-size: 2.2rem;
+    border-radius: 5px;
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+#pause {
+    margin: 2vw 0 0 44vw;
+    padding: 15px;
+    width: 10vw;
+    font-size: 1.5rem;
+    background-color: rgb(12, 93, 234);
+    color: white;
+}
+
+table {
+    color: aliceblue;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgba(0,128,255,0.1);
+    color: #fff;
+}
+th, td {
+    border: 2px solid rgb(96, 170, 224);
+    border-collapse: collapse;
+
+    padding: 7px;
+    width: 20vw;
+    font-size: 1.3rem;
+}
+th span {
+    color: black;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(96, 170, 224);
+}
+td span {
+    color: black;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(96, 224, 168);
+}
+tr {
+    text-align: center;
+}
+
+p, h2 {
+    background-color: aliceblue;
+    display: inline; 
+    padding: 3px 3px 6px 3px;
+    margin-left: 10vw;
+    border-radius: 5px;
+}
+
+#addA, #addB {
+    padding: 6px 6px 6px 6px;
+    font-size: 1.3rem;
+    width: 2vw;
+}
+
+
+td input {
+    height: 3vh;
+    width: 15vw;
+}
+
+.addPointsInput {
+    width: 40px;
+}
+
+.addPointsBtn {
+    background-color: rgb(210, 143, 60);
+}
+
+#tableB {
+    margin-bottom: 30px;
+}

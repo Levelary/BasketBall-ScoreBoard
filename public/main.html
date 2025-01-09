@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <header> 
+        <h1>Basketball Scoreboard</h1>  -->
+        <button id="logout">Logout</button>
+    <!-- </header> -->
+    <div id="scoreBoard">
+        <div id="timer">
+            <div class="timeBox" id="minutes">10</div>
+            <div class="timeBox" id="seconds">00</div>
+            <div id="btns">
+                <button class="forAdmin" id="save">Save the set</button>
+                <button class="forAdmin" id="reset">Reset</button>
+            </div>            
+        </div>
+        <!-- <span style="margin-left: 20px;">Minutes</span>
+        <span style="margin-left: 32px;">Seconds</span> -->
+        <br>
+            <button class="forAdmin" id="pause">Start</button>
+            
+        </div>
+        <div>
+            <span id="boardA"></span>
+            <span id="boardB"></span>
+        </div>
+    </div><br><br>
+    
+    <table id="setTable">
+        <thead>
+            <tr>
+                <th><span>Set No.</span></th>
+                <th><span>Winner</span></th>
+                <th>
+                    <span>Scores (A:B)</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table><br><br>
+
+    <h2>Team A</h2>
+    <button class="forAdmin" id="addA">+</button>
+    <table id="tableA">
+        <thead>
+            <tr>
+                <th><span>JNo.</span></th>
+                <th><span>Player</span></th>
+                <th><span>Score</span></th>
+                <th><span>Points</span></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table><br><br>
+
+    <h2>Team B</h2>
+    <button class="forAdmin" id="addB">+</button>
+    <table id="tableB">
+        <thead>
+            <tr>
+                <th><span>JNo.</span></th>
+                <th><span>Player</span></th>
+                <th><span>Score</span></th>
+                <th><span>Points</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>19</td>
+                <td>Karthik</td>
+                <td>3</td>
+                <td><input class="addPointsInput"/><button class="addPointsBtn">+</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="./timer/timer.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

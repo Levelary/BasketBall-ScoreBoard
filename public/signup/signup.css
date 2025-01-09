@@ -1,0 +1,59 @@
+body {
+    /* background-color: rgb(175, 230, 244); */
+    background-image: url("../images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 97vh;
+}
+
+.container {
+    background-color: rgb(246, 115, 34);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 4px;
+    width: 450px;
+    height: 60vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: rgb(12, 65, 156);
+    font-size: 1.3rem;
+}
+
+
+input {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background-color: rgb(29, 87, 186);
+    box-shadow: 0.5px 0.5px black;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#invalidMsg, #missingMsg {
+    color: red;
+    background-color: white;
+    padding: 7px;
+    /* width: 20vw; */
+    font-size: 1.2rem;
+}

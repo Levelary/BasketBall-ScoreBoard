@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BB-Score</h2>
+        <form>
+            <input type="text" id="username" placeholder="* Username">
+            <input type="email" id="email" placeholder="* Email">
+            <input type="password" id="password" placeholder="* Password">
+            <input type="password" id="password2" placeholder="* Re-enter Password">
+            <button id="submitBtn">Signup</button>
+        </form>
+        <p>Have an account? <a href="../login/login.html">Login</a></p>
+        <div id="errorBlock">
+            <div id="missingMsg" style="display: none;"></div>
+            <div id="invalidMsg" style="display: none;">Invalid Credentials</div>
+        </div>
+    </div>
+    <script src="./signup.js"></script>
+    <!-- <script>
+        document.getElementById("submitBtn").addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = "../admin.html";
+        });
+    </script> -->
+</body>
+</html>
