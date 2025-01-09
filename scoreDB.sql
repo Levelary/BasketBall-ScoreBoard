@@ -36,6 +36,6 @@ select * from sets;
 
 
 truncate table players;
-
+insert into players values('A', 21, "Ajay", 3);
 select * from players;
 
