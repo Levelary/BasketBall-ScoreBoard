@@ -89,7 +89,7 @@ saveSetBtn.addEventListener('click', async function(event) {
 async function displaySets() {
     // event.preventDefault();
 
-    var setsTable = document.querySelector("#setTable tbody");
+    var setsTable = document.querySelector("#setsTable tbody");
 
     try {
         var response = await fetch('/sets', {
